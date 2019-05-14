@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Business Casual - Start Bootstrap Theme</title>
+  <title>Kop-Joy</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,13 +24,41 @@
 
 </head>
 
+<header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="vid/header.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          
+          <section class="page-section" >
+            <div>
+              <div class="col-xl-9 col-lg-10 mx-auto">
+                <div class="bg-faded rounded p-5">
+                  <h1 class="site-heading text-center text-white d-none d-lg-block">
+                    <span class="site-heading-upper text-primary">Kop - Joy !</span>
+                    <hr>
+                    <span class="site-heading-lower text-secondary mb-2">Kuy Ngopi Biar Enjoy</span>
+                  </h1>
+                  </div>
+                </div>
+             </div>
+          </section>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
 <body id="page-top">
 
   <!-- Navigation -->
 
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Kop - joy</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html">Kop - joy</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -38,39 +66,23 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-1">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+            <li class="nav-item px-lg-1">
+              <a class="nav-link text-uppercase text-expanded js-scroll-trigger" href="#page-top">Home
               </a>
             </li>
             <li class="nav-item px-lg-1">
-              <a class="nav-link text-uppercase text-expanded" href="#about">About</a>
+              <a class="nav-link text-uppercase text-expanded js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item px-lg-1">
-              <a class="nav-link text-uppercase text-expanded" href="#products">Products</a>
+              <a class="nav-link text-uppercase text-expanded js-scroll-trigger" href="#products">Products</a>
             </li>
           </ul>
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- Header Landing page-->
-  <section class="page-section" >
-      <div>
-        <div class="col-xl-9 col-lg-10 mx-auto">
-          <div class="bg-faded rounded p-5">
-            <h1 class="site-heading text-center text-white d-none d-lg-block">
-              <span class="site-heading-upper text-primary">Kop - Joy !</span>
-              <hr>
-              <span class="site-heading-lower text-secondary mb-2">Kuy Ngopi Biar Enjoy</span>
-            </h1>
-            </div>
-          </div>
-       </div>
-    </section>
   
-
-  <!-- About -->
+  <!-- halaman sub header / -->
   <section class="page-section clearfix">
     <div class="container">
       <div class="intro">
@@ -103,8 +115,8 @@
                   <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
                   <span class="section-heading-lower">About Our Cafe</span>
                 </h2>
-                <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
-                <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>
+                <p>Didirikan pada tahun 2019 oleh beberapa mahasiswa yang telah bosan kuliah . Kami mencoba mencari jati diri kami dengan mendirikan sebuah bisnis . Meskipun kami malas malasan kuliah , akan tetapi kami memberikan dedikasi penuh dalam pengembangan coffee shop kami.</p>
+                <p class="mb-0">Kami jamin anda akan merasa nyaman dengan pelayanan yang kami berikan serta merasakan kenikmatan dalam meminum kopi dengan suasana yang membuat anda ingin <strong>SKIP</strong> kuliah.</p>
               </div>
             </div>
           </div>
@@ -121,7 +133,7 @@
               <span class="section-heading-upper">Our Promise</span>
               <span class="section-heading-lower">To You</span>
             </h2>
-            <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+            <p class="mb-0">Disaat anda memasuki coffee shop kami , kami jamin anda akan merasakan atmosfir dan suasana yang menenangkan hati. Dengan pelayanan terbaik oleh Teteh teteh <strong>CUANTIK</strong> membuat hati lebih ber <strong>Flower Flower</strong> .</p>
           </div>
         </div>
       </div>
@@ -129,7 +141,8 @@
   </section>
 
   <!-- halaman #product -->
-  <section class="page-section" id="products">
+  <div id="products"></div>
+  <section class="page-section">
       <div class="container">
         <div class="product-item">
           <div class="product-item-title d-flex">
@@ -143,7 +156,7 @@
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-01.jpg" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>
+              <p class="mb-0">Kami bangga dengan setiap kopi yang kami sajikan. Setiap anda meneguk kopi seduhan kami , kami percaya bahwa anda akan puas dengan kenikmaan yang diberikan. Hal ini dikarenakan kami menggunakan teknik dan teknologi terbaru agar kopi yang kami sajikan sangatlah berkualitas.</p>
             </div>
           </div>
         </div>
@@ -164,7 +177,9 @@
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p>
+              <p class="mb-0">Disaat anda meminum kopi di kedai kami , kami menyediakan beberapa makanan ringan agar kenikmatan kopi yang anda teguk lebih <strong>HAKIKI</strong>.</p>
+              <br>
+              <p class="mb-0">Dengan meminum kopi sambil menikmati makanan ringan di kedai kami , anda akan lebih <strong>MAGER</strong> untuk ke kampus , apalagi dengan WI-Fi yang <strong>WUS WUS WUS</strong></p>
             </div>
           </div>
         </div>
@@ -185,7 +200,7 @@
           <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg" alt="">
           <div class="product-item-description d-flex mr-auto">
             <div class="bg-faded p-5 rounded">
-              <p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>
+              <p class="mb-0">Dengan biji kopi yang berasal dari setiap penjuru dunia . Kami memberikan banyak pilihan untuk anda yang suka dengan berbagai jenis dan rasa kopi.</p>
             </div>
           </div>
         </div>
@@ -193,6 +208,7 @@
     </section>
 
 
+  <!-- Footer -->
   <footer class="footer text-faded text-center py-5">
     <div class="container">
       <p class="m-0 small">Copyright &copy; Your Website 2019</p>
@@ -202,6 +218,12 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- smooth scroll nav -->
+  <script src="js/scrolling-nav.js"></script>
 
 </body>
 

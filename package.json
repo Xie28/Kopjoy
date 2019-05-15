@@ -1,11 +1,11 @@
 {
-    "title": "Business Casual",
-    "name": "startbootstrap-business-casual",
+    "title": "Kopjoy",
+    "name": "Kop-joy website",
     "version": "5.0.5",
     "scripts": {
         "start": "gulp watch"
     },
-    "description": "A casual HTML website theme for businesses built with Bootstrap",
+    "description": "website untuk cafe kopjoy",
     "keywords": [
         "css",
         "sass",

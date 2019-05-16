@@ -1,6 +1,6 @@
 {
     "title": "Kopjoy",
-    "name": "Kop-joy website",
+    "name": "Kop joy website",
     "version": "5.0.5",
     "scripts": {
         "start": "gulp watch"
@@ -20,13 +20,13 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Xie Design",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Xie Yue (http://xie28.github.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
+        "url": "https://github.com/Xie28/Kopjoy"
     },
     "dependencies": {
         "bootstrap": "4.3.1",

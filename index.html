@@ -19,8 +19,20 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+  
+
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- Modal Popup -->
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+  </script>
 
 </head>
 
@@ -53,6 +65,34 @@
   </header>
 
 <body id="page-top">
+
+  <!-- pop up modal -->
+
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Hello Pelanggan-que!</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            </div>
+            <div class="modal-body">
+                <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/3.jpg" alt="">
+                <p>Subscribe email kami untuk mendapatkan penawaran kopi gratis dari kami!</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+
 
   <!-- Navigation -->
 
@@ -124,6 +164,29 @@
       </div>
     </section>
 
+  <!-- Map -->
+  <section class="page-section">
+      <div class="container">
+        <div class="product-item">
+          <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex ml-auto rounded">
+              <h2 class="section-heading mb-0">
+                <span class="section-heading-upper">Kunjungi Kami !</span>
+                <span class="section-heading-lower">Kop-joy Coffee Shop</span>
+              </h2>
+            </div>
+          </div>
+          <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/map.png" alt="">          
+          <div class="product-item-description d-flex mr-auto">
+            <div class="bg-faded p-5 rounded">
+              <p class="mb-0">Jl. Alamanda Raya No 161 . Bandung , Jawa Barat . Indonesia </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Our Promise -->   
   <section class="page-section cta">
     <div class="container">
       <div class="row">

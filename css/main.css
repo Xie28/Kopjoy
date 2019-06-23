@@ -68,7 +68,7 @@ p {
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 150;
 }
 
 .section-heading .section-heading-menu {
@@ -87,7 +87,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #fdfdfd;
   
   /* costom mod text brand disini*/
   font-family: 'Montserrat';
@@ -100,7 +100,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #333333;
 }
 
 @media (min-width: 992px) {
@@ -111,7 +111,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #333333;
   }
 }
 
@@ -162,7 +162,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: #33333394;
 }
 
 .cta .cta-inner {
@@ -227,7 +227,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #333333;
 }
 
 @media (min-width: 992px) {
@@ -246,11 +246,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #333333 !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #333333 !important;
 }
 
 .btn {
@@ -259,13 +259,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #333333;
+  border-color: #333333;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #9c9c9c;
+  border-color: #9c9c9c;
 }
 
 .font-weight-light {
@@ -325,4 +325,8 @@ header .overlay {
   header video {
     display: none;
   }
+}
+
+.card {
+  border : 1px;
 }
